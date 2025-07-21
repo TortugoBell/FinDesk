@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC1D1C65-5717-7583-18B0-B0F74A97BD69" name="Transaction">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>1C5B894D-E382-F35D-DA23-2BDF9A108F85</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AC98C97A-E1DD-9A5C-A950-2304413B06D1">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>55EB8A48-FF2A-043D-07F3-C044CEA0AFE9</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="79F60DCF-D926-37DA-A533-3D47271733DC">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>756026D2-1D26-57ED-E4C4-50434132A5D2</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E35F848-DE7E-A854-933E-3627DD1F633F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="234BD30C-48DD-B3A6-CFD8-71ADFF193F1F">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>93771557-C2A3-A5D3-41B4-AB134EBA9065</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>74CF6A1B-C182-2575-FCD3-879BBDB83122</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="due date" id="F3BFBF71-DD26-14BE-F9A2-ED9BDCA7AF59">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>E7ACAEA4-357B-1563-AA28-A3AE6331945F</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>05B7EA91-FC48-10D6-CB2D-76CD50CB8955</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment date" id="9EC29032-B79B-1269-F3E8-A4EBC13CBDD0">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>AEB4F06F-137F-7EFC-C3FC-2960BC0A1092</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>05B7EA91-FC48-10D6-CB2D-76CD50CB8955</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="7C25DBF7-7C95-BEE8-2C2D-75A7EF8CB150">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>B5C7F49A-4FEA-D0C8-311B-C3692C19E17D</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5373349-026B-E2EC-B1CF-7AD1B084A317</domain>
+<listOfValues>
+<valueDef value="EXPENSE" description=""/>
+<valueDef value="INCOME" description=""/>
+<valueDef value="TRANSFER" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="71F1B320-A543-CD9B-412D-556DA71FC42B">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>D6FA1930-8A86-5E08-1F89-45FAEC709962</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5373349-026B-E2EC-B1CF-7AD1B084A317</domain>
+<defaultValue>&apos;PENDING&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created at" id="E5305734-5C0F-6C4C-60A8-BCBCB1CA47AA">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>FEE1A22C-3D81-FA09-C6BB-5B8BDE312FFB</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>87E55D52-C060-4FEB-2C0C-6320A965F10E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank account id" id="5D14D49F-30AC-CA73-E011-BFA55FA410BD">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>5CB5AE91-4C8E-0294-08FA-E8F2009B8302</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<referedAttribute>2EF46157-F82E-104F-7FFC-404917B084EA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category id" id="2D6DE38F-5E45-E0FF-9879-5272CB842818">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>21B85884-9ECF-2492-84F7-A41EB749B8A7</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8525DCF-69D8-940F-C136-9B258D1BE4A9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company id" id="9C3DBFA6-A5A0-5E97-DBDD-C3C94F2ADD38">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>FA2CC428-9CA3-C1E5-575E-A33AC464D1EE</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<referedAttribute>EC9A8B0C-61E7-04AA-C80C-CCF2C7BD96EF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id" id="F9A0BBCA-B9A4-5AF7-C986-6CA0AF6E3A50">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>8224E939-0FE2-8D31-C380-C721762D1819</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<referedAttribute>769717E7-DDB2-E57B-A314-3A125811524C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5986323F-BEA4-2FA6-923C-109CDE5D7F59" name="Transaction PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>57A64C83-E4EE-21E4-2ECB-2732A89A55A2</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC98C97A-E1DD-9A5C-A950-2304413B06D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

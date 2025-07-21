@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB62D9C6-72FD-1A66-5318-B19CB49A63BD" containerWithKeyObject="1C5B894D-E382-F35D-DA23-2BDF9A108F85" localFKIndex="2888A663-A778-6845-2DE1-C0FF2B9B60E8" name="fk_transaction_company">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>3EAB80C4-B2FF-2B24-21B0-FD7C7A89FB86</importedID>
+<referredTableLongName>Company</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>017A820E-2B1C-B212-0951-DDEBD42267FE</referredTableID>
+<keyObject>7AEF721E-FAB0-1F5A-C71C-7A36E17E5805</keyObject>
+<referredKeyID>7AEF721E-FAB0-1F5A-C71C-7A36E17E5805</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

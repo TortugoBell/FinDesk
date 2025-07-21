@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MER_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="05B7EA91-FC48-10D6-CB2D-76CD50CB8955">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="40D0E1D4-849D-C086-D857-7DC77600F036">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="4E35F848-DE7E-A854-933E-3627DD1F633F">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_15_2_0" id="74CF6A1B-C182-2575-FCD3-879BBDB83122">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="87E55D52-C060-4FEB-2C0C-6320A965F10E">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="96EC647A-E182-6A4B-F29F-C44C1EB863C4">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="C5373349-026B-E2EC-B1CF-7AD1B084A317">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>MER_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

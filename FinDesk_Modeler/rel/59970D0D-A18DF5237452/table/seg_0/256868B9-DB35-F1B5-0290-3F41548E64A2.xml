@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="256868B9-DB35-F1B5-0290-3F41548E64A2" name="Transfer">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>C1DB1F47-CBE7-4752-293B-C85B486A8AFB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="35134C33-567C-1779-3C74-757BE77AB2DF">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>458B4D6F-6393-E428-5921-EBBA386EF2F5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="amount" id="AD326099-576F-48AB-BB61-BF0DE2E3BA8D">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>47A48FDB-ADDF-0E3B-347A-E7DE4B7C4E37</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>74CF6A1B-C182-2575-FCD3-879BBDB83122</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transfer_date" id="D9C4B905-117F-347F-650F-9B9BD9CDC3D2">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>AD8F7955-3178-788F-3525-3BA006D8C6A4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>05B7EA91-FC48-10D6-CB2D-76CD50CB8955</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="8C6B54A4-F2E0-672E-4F29-2967BB5C7C99">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>F992C804-6277-4C8D-EAE7-7C25B7C833C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E35F848-DE7E-A854-933E-3627DD1F633F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="FABC9B46-52D2-9165-6D06-3B86D368BB0B">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>DB8F612F-5F09-C946-6424-88C321E65D89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5373349-026B-E2EC-B1CF-7AD1B084A317</domain>
+<defaultValue>&apos;PENDING&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="A094EBA9-EB83-6715-3DC4-74BBB9A048F8">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>06B0EBF9-B671-6DF8-0042-F4935CBF90C4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>87E55D52-C060-4FEB-2C0C-6320A965F10E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origin_account_id" id="88720EF6-80D6-31CC-D0D4-11791257676B">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>DE6D38CE-8EB9-DC51-5A63-7D490778335C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556B43A1-0339-35B1-5312-B285ADCBF1CC" referredColumn="7DA0F727-3329-A175-8678-21962A659847"/>
+</associations>
+</Column>
+<Column name="destination_account_id" id="5FD8CFCA-5767-74B1-E428-6262076E3779">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>0A4BD114-4C20-8A63-A528-1108592B3EED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7FB59EF-506E-86B4-707C-82CABBF7768B" referredColumn="7DA0F727-3329-A175-8678-21962A659847"/>
+</associations>
+</Column>
+<Column name="company_id" id="8C3D9033-076D-D219-1644-307ABCD6B23A">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>9AB1F31F-ACAF-2F2B-5BA9-8F6FDBE3029F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7E908EF-FDC5-4A86-3D36-93FCD24B7BDC" referredColumn="9C09B41E-31A8-D0C7-391F-1FB264F901DB"/>
+</associations>
+</Column>
+<Column name="user_id" id="AA0D3C26-AFAB-1610-C46D-006C1FA132BB">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>EDC27F19-8C32-D99F-FAB9-FD1522AB04EA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8CB87969-AE04-6B5B-1E4B-9F46A5FA11CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B98F2FCD-CFD2-0826-5BDE-6522418EEB8B" referredColumn="E43185AD-EE12-115F-9A77-FD53812106AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2495C767-0DD7-B01A-3CBB-1266272C718C" name="Transfer_PK">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>74F3D347-97CD-CB04-501B-9D5A645E1416</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35134C33-567C-1779-3C74-757BE77AB2DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85513077-0323-D1A2-867D-BED4659B9775" name="idx_transfer_date">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>C3C73A6B-10BD-2572-E9B3-AC92BA4D9C3B</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9C4B905-117F-347F-650F-9B9BD9CDC3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E41FAFDE-F11B-A9C0-ECAA-8EFD6CA7C415" name="fk_transfer_company">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C3D9033-076D-D219-1644-307ABCD6B23A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E24A6906-8B07-E1E5-C47B-40894AFB333E" name="fk_transfer_destination">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD8CFCA-5767-74B1-E428-6262076E3779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="394679E5-1BC7-5EE0-DB36-959354E66D95" name="fk_transfer_origin">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88720EF6-80D6-31CC-D0D4-11791257676B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11C04DBC-85E0-243C-5644-32442B9F800F" name="fk_transfer_user">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA0D3C26-AFAB-1610-C46D-006C1FA132BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

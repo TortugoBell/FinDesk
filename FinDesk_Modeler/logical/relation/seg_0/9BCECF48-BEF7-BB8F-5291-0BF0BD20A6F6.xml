@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_category_parent" directorySegmentName="seg_0" id="9BCECF48-BEF7-BB8F-5291-0BF0BD20A6F6">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>2306FCB3-3195-7197-E742-7A0296AE4EED</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<targetPk>0EF6DC33-AA83-1BAA-9F21-622848DEA79B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D698A6CC-BAEF-43C6-006F-93D82D810CC9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D698A6CC-BAEF-43C6-006F-93D82D810CC9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

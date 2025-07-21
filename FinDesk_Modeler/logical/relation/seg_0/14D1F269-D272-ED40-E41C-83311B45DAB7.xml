@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_transfer_destination" directorySegmentName="seg_0" id="14D1F269-D272-ED40-E41C-83311B45DAB7">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:59:03 UTC</createdTime>
+<generatorID>A7FB59EF-506E-86B4-707C-82CABBF7768B</generatorID>
+<ownerDesignName>FinDesk</ownerDesignName>
+<engineerTo>
+<item key="59970D0D-30FC-F2B1-E407-A18DF5237452" value="true"/>
+</engineerTo>
+<sourcePk>EDCE491E-9A14-50DC-D7BB-35DC2E2E4268</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94AF924F-E6AC-A80B-F70C-52935C1BDD35</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F38597B-2192-9CF2-479D-A4CA1F6E38AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

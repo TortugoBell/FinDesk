@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FinDesk" id="E4EA3B67-CB5F-DCCB-EB53-02DB67FDAD41" version="3.5">
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:45:50 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E4EA3B67-CB5F-DCCB-EB53-02DB67FDAD41</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A65582E4-894C-E6AD-DFAD-8F1D779C3456">
+<designStoragePath>C:\MER</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

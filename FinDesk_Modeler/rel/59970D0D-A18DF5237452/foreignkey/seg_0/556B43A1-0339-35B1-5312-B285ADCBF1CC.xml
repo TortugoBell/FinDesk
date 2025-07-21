@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="556B43A1-0339-35B1-5312-B285ADCBF1CC" containerWithKeyObject="256868B9-DB35-F1B5-0290-3F41548E64A2" localFKIndex="394679E5-1BC7-5EE0-DB36-959354E66D95" name="fk_transfer_origin">
+<sourceDDLFile>MER.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2025-07-18 23:51:23 UTC</createdTime>
+<ownerDesignName>FinDesk</ownerDesignName>
+<importedID>BF97299C-1EEA-A524-43FB-584EC84739CB</importedID>
+<referredTableLongName>BankAccount</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>0C14694E-3BF5-B9C6-1BC3-D983D7E4D595</referredTableID>
+<keyObject>409331CC-BCE4-8B1D-EB05-526325B887F6</keyObject>
+<referredKeyID>409331CC-BCE4-8B1D-EB05-526325B887F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
