@@ -40,6 +40,44 @@ src/main/java/com/findesk
 
 ---
 
+## ⚙️ **Serviços implementados (regras de negócio)**
+
+- **TransactionService**
+    - Criar lançamentos financeiros
+    - Validar valores e tipos
+    - Calcular previsão de saldo futuro
+
+- **TransferService**
+    - Criar transferências entre contas
+    - Validar que origem ≠ destino
+    - Validar valores positivos
+
+- **CategoryService**
+    - Criar e listar categorias financeiras de uma empresa
+
+- **BankAccountService**
+    - Criar e listar contas bancárias de uma empresa
+
+- **AppUserService**
+    - Criar usuários vinculados a empresa
+    - Buscar usuários por empresa
+
+- **CompanyService**
+    - Criar nova empresa
+    - Buscar empresa por CNPJ
+
+---
+
+## 📦 **DTOs criados**
+- CompanyDTO
+- AppUserDTO
+- BankAccountDTO
+- CategoryDTO
+- TransactionDTO
+- TransferDTO
+
+---
+
 ## 🐳 Docker
 Build local:
 ```bash
