@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "TRANSACTION")
+@Table(name = "FD_T_TRANSACTIONS")
 public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,10 +28,10 @@ public class Transaction {
     private LocalDate paymentDate;
 
     @Column(nullable = false)
-    private String type; // INCOME, EXPENSE, TRANSFER
+    private String transaction_type; // INCOME, EXPENSE, TRANSFER
 
     @Column(nullable = false)
-    private String status; // PENDING, PAID, CANCELED
+    private String transaction_status; // PENDING, PAID, CANCELED
 
     @CreationTimestamp
     private LocalDateTime createdAt;

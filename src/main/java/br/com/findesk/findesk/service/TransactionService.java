@@ -27,8 +27,8 @@ public class TransactionService {
         List<Transaction> transactions = transactionRepository.findByCompanyId(companyId);
         return transactions.stream()
                 .mapToDouble(t -> {
-                    if ("INCOME".equals(t.getType())) return t.getAmount().doubleValue();
-                    else if ("EXPENSE".equals(t.getType())) return -t.getAmount().doubleValue();
+                    if ("INCOME".equals(t.getTransaction_type())) return t.getAmount().doubleValue();
+                    else if ("EXPENSE".equals(t.getTransaction_type())) return -t.getAmount().doubleValue();
                     else return 0.0;
                 })
                 .sum();

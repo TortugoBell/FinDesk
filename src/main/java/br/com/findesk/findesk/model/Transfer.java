@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "TRANSFER")
+@Table(name = "FD_T_TRANSFER")
 public class Transfer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

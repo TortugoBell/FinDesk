@@ -1,6 +1,5 @@
 package br.com.findesk.findesk.repository;
 
-import br.com.findesk.findesk.model.Category;
 import br.com.findesk.findesk.model.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;

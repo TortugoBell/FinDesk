@@ -20,8 +20,8 @@ public class TransactionController {
         transaction.setDescription(dto.getDescription());
         transaction.setAmount(dto.getAmount());
         transaction.setDueDate(dto.getDueDate());
-        transaction.setType(dto.getType());
-        transaction.setStatus(dto.getStatus());
+        transaction.setTransaction_type(dto.getTransaction_type());
+        transaction.setTransaction_status(dto.getTransaction_status());
         return transactionService.createTransaction(transaction);
     }
 

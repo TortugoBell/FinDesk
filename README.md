@@ -77,6 +77,35 @@ src/main/java/com/findesk
 - TransferDTO
 
 ---
+## 📌 Endpoints REST
+
+### 🔐 Usuários
+| Método | Endpoint              | Descrição                          |
+|-------|-----------------------|------------------------------------|
+| POST  | /api/users            | Criar novo usuário                 |
+| GET   | /api/users            | Listar usuários                    |
+| GET   | /api/users/{id}       | Buscar usuário por ID              |
+| PUT   | /api/users/{id}       | Atualizar usuário                  |
+| DELETE| /api/users/{id}       | Deletar usuário                    |
+
+### 🏦 Contas bancárias
+| Método | Endpoint              | Descrição                          |
+|-------|----------------------|------------------------------------|
+| POST  | /api/bankaccounts    | Criar conta bancária              |
+| GET   | /api/bankaccounts    | Listar contas                     |
+
+### 💸 Transações
+| Método | Endpoint                | Descrição                         |
+|-------|------------------------|----------------------------------|
+| POST  | /api/transactions      | Criar transação                  |
+| GET   | /api/transactions      | Listar transações                |
+
+### 🔄 Transferências
+| Método | Endpoint              | Descrição                        |
+|-------|----------------------|---------------------------------|
+| POST  | /api/transfers       | Criar transferência             |
+| GET   | /api/transfers       | Listar transferências           |
+---
 
 ## 🐳 Docker
 Build local:

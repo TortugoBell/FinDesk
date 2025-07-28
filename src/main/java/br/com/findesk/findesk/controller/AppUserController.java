@@ -21,7 +21,6 @@ public class AppUserController {
         user.setEmail(dto.getEmail());
         user.setPasswordHash(dto.getPassword()); // no futuro hash
         user.setProfile(dto.getProfile());
-        // associar empresa por id, ajuste conforme necessário
         return appUserService.createUser(user);
     }
 
